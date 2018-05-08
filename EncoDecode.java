@@ -68,9 +68,7 @@ public class EncoDecode {
     }
 
     public static void saveKey(String value) {
-        SharedPreferences.Editor editor = myPrefs.edit();
-        editor.putString(SECRET_KEY, value);
-        editor.commit();
+        myPrefs.edit().putString(SECRET_KEY, value).commit();
     }
 
     public static String getKey() {
