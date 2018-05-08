@@ -1,4 +1,4 @@
-package com.coderzheaven.encryptdecrypt;
+package com.coderzheaven.encodecode;
 
 import android.content.Context;
 import android.content.SharedPreferences;
@@ -15,7 +15,7 @@ import javax.crypto.spec.IvParameterSpec;
 import javax.crypto.spec.SecretKeySpec;
 
 /**
- * Created by Vipin From CoderzHeaven on 5/2/18.
+ * Created by Vipin From CoderzHeaven.com on 5/2/18.
  */
 
 public class EncoDecode {
