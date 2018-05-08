@@ -4,6 +4,7 @@ Encrypt And Decrypt any file in Android. It can be a text/audio/data file.
 
 # Usage
 
+```java
 try {
 
     byte[] bytes = EncoDecode.encode("Hello How are you".getBytes("UTF8"));
@@ -15,3 +16,4 @@ try {
 }
 
 EncoDecode.shutDown();
+```java
