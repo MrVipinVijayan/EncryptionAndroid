@@ -5,7 +5,7 @@ Encrypt And Decrypt any file in Android. It can be a text/audio/data file.
 # Usage
 
 ```java
-EncoDecode.init(this);
+EncoDecode.init(context);
 
 try {
 
